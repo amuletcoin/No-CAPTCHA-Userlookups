@@ -7,6 +7,8 @@
 // @match        *://neopets.com/*
 // @grant        none
 // @icon         https://www.neopets.com/favicon.ico
+// @updateURL    https://github.com/amuletcoin/No-CAPTCHA-Userlookups/raw/main/noCaptcha.user.js
+// @downloadURL  https://github.com/amuletcoin/No-CAPTCHA-Userlookups/raw/main/noCaptcha.user.js
 // ==/UserScript==
 
 const replaceURL = function() {
