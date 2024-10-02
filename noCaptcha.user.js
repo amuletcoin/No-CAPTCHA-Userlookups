@@ -19,8 +19,8 @@ const replaceURL = function() {
         const href = link.getAttribute("href");
         const params = href.split('?')[1];
         const neoDomain = "https://www.neopets.com/userlookup.phtml?";
-        const placeValue = "&place=999";
-        const urlString = (neoDomain + params + placeValue);
+        const placeValue = "?place=999";
+        const urlString = (neoDomain + placeValue + "&" + params);
         // console.log(urlString);
         const newUrl = new URL(urlString);
         link.setAttribute('href', newUrl.href.toString());
